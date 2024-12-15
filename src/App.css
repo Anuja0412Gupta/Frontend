@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  width:100vh;
+  color: white;
+  background-color:darkcyan;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.cta-btn {
+  background-color: #ff7b00;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #ff5700;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+.heading{
+  text-align: center;
+  font-size: 90px;
+}
